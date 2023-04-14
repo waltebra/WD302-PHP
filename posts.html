@@ -29,10 +29,18 @@
             </div>
           </nav>
 
-          <h5 class="primary sorting">Sorting By: Featured</h5>
+          <div class="row row-cols-2 gx-0 mt-2 mb-2">
+            <div class="col-lg-2 col-md-2 col-sm-3">
+            <button class="btn btn-accent" type="button" data-bs-toggle="collapse" href="#searchbox">Open Search</button>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-3">
+            <h5 class="primary">Sorting By: Featured</h5>
+          </div>
+          </div>
 
-          <div class="row">
-              <div class="card secondary-bg col-2 searchbox">
+          <div class="row gx-2">
+            <div class="container-sm collapse col-lg-2 col-md-4 ms-0 ps-0" id="searchbox">
+              <div class="card secondary-bg searchbox">
                 <div class="card-body">
                   <h3 class="card-title primary mb-2">Search</h3>
 
@@ -73,6 +81,7 @@
                   <button class="btn btn-accent" type="submit">Preset</button>
                 </div>
               </div>
+            </div>
 
               <div class="container col-8 gap-3">
                 <div class="row row-cols-3 row-gap-3">
