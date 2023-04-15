@@ -1,0 +1,61 @@
+/*STYLES ON THE Landing PAGE*/
+/* Create two equal columns that floats next to each other */
+* {
+  box-sizing: border-box;
+}
+
+/* Button Styles */
+.button {
+  background-color: #25244F;
+  border: none;
+  color: white;
+  padding: 20% 20%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 7vw;
+  border-radius: 15%;
+  
+}
+.button:hover{
+  background-color:#484599;
+  border: none;
+  color: white;
+  padding: 20% 20%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 7vw;
+  margin-top: -.5%;
+  border-radius: 15%;
+}
+
+/*Column Styles */
+.column {
+  width: 40%;
+  height: 50%;
+  margin-top: 10%;
+  margin-left: 2%;
+}
+
+.column2 {
+  width: 18%;
+  height: 50%;
+  margin-top: 7%;
+  margin-right: 9%;
+}
+.row{
+   display: flex;
+   justify-content: Center;
+}
+.row:after {
+/* Clear floats after the columns */
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+ 
