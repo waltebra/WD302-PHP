@@ -11,40 +11,51 @@
     </head>
 
     <body>
+		<section class="vh-100 gradient-custom">
+		<div class="primary">
+		<div class="container py-5 h-100">
+		<div class="row d-flex justify-content-center align-items-center h-100">
+		<div class="col-12 col-md-8 col-lg-6 col-xl-5\">
+		<div class="text-white" style="border-radius: 1rem; background-color:#213242;">
+		<div class="card-body p-5 text-left"> <!--change left to center to center space all text-->
+		<div class="mb-md-5 mt-md-4 pb-5">
     <h1>PHP - People Helping People</h1>
-    <form>
+    <form action="landing.html" method="GET">
         <h2>Register an account:</h2>
         <div class="mb-3">
-            <label for="firstname" class="form-label">Name</label>
-            <input type="text" class="form-control" id="firstname" aria-describedby="firstNameHelp">
-            <div id="firstNameHelp" class="form-text">First Name</div>
+            <label for="firstname" class="form-label">First Name</label>
+            <input type="text" class="form-control" id="firstname" aria-describedby="firstNameHelp" required>
+            <div id="firstNameHelp" class="form-text secondary">First Name</div>
           </div>
           <div class="mb-3">
-            <label for="lastname" class="form-label">Name</label>
-            <input type="text" class="form-control" id="lastname" aria-describedby="lastNameHelp">
-            <div id="lastNameHelp" class="form-text">Last Name</div>
+            <label for="lastname" class="form-label">Last Name</label>
+            <input type="text" class="form-control" id="lastname" aria-describedby="lastNameHelp" required>
+            <div id="lastNameHelp" class="form-text secondary">Last Name</div>
           </div>
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
-            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
+            <div id="emailHelp" class="form-text secondary">We'll never share your email with anyone else.</div>
           </div>
           <div class="mb-3">
             <label for="password" class="form-label">Password</label>
-            <input type="password" class="form-control" id="password" aria-describedby="passwordHelp">
-            <div id="passwordHelp" class="form-text">Password must be 8 characters.</div>
+            <input type="password" class="form-control" id="password" aria-describedby="passwordHelp" required>
+            <div id="passwordHelp" class="form-text secondary">Password must be more than 8 characters.</div>
           </div>
           <div class="mb-3">
             <label for="dateofbirth" class="form-label">Date Of Birth</label>
-            <input type="email" class="form-control" id="dateofbirth" aria-describedby="dateofbirthHelp">
-            <div id="dateofbirthHelp" class="form-text">MM/DD/YYYY</div>
+            <input type="date" class="form-control" id="dateofbirth" aria-describedby="dateofbirthHelp" required>
+            <div id="dateofbirthHelp" class="form-text secondary">MM/DD/YYYY</div>
           </div>
           <div class="mb-3">
             <label for="phone" class="form-label">Phone Number - Optional</label>
-            <input type="number" class="form-control" id="phone" aria-describedby="phoneHelp">
-            <div id="phoneHelp" class="form-text">XXX-XXX-XXXX</div>
+            <input type="tel" class="form-control" id="phone" aria-describedby="phoneHelp">
+            <div id="phoneHelp" class="form-text secondary">XXX-XXX-XXXX</div>
           </div>
-          <input type="submit">
+		  <div>
+		    <div class="text-center">
+            <input type="submit" value="Submit">
+		  </div>
     </form>
 
         <!--PLACE SCRIPTS-->

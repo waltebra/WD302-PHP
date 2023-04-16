@@ -11,20 +11,31 @@
     </head>
 
     <body>
+	  <section class="vh-100 gradient-custom">
+		<div class="primary">
+		<div class="container py-5 h-100">
+		<div class="row d-flex justify-content-center align-items-center h-100">
+		<div class="col-12 col-md-8 col-lg-6 col-xl-5\">
+		<div class="text-white" style="border-radius: 1rem; background-color:#213242;">
+		<div class="card-body p-5 text-left"> <!--change left to center to center space all text-->
+		<div class="mb-md-5 mt-md-4 pb-5">
         <h1>PHP - People Helping People</h1>
         <form action="landing.html" method="GET">
             <h2>Login</h2>
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
-                <div id="emailHelp" class="form-text">The Email Address you used to create your account.</div>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
+                <div id="emailHelp" class="form-text secondary">The Email Address you used to create your account.</div>
               </div>
               <div class="mb-3">
                 <label for="password" class="form-label">Password</label>
-                <input type="password" class="form-control" id="password" aria-describedby="passwordHelp">
-                <div id="passwordHelp" class="form-text">Your password.</div>
+                <input type="password" class="form-control" id="password" aria-describedby="passwordHelp" required>
+                <div id="passwordHelp" class="form-text secondary">Your password.</div>
               </div>
-              <input type="submit">
+			  <div>
+				<div class="text-center">
+                <input type="submit" value="Login">
+			  </div>
         </form>
 
         <!--PLACE SCRIPTS-->
