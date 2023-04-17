@@ -16,3 +16,18 @@
 .post:hover {
     opacity: 90%;
 }
+
+.logout:hover{
+   color: red;
+}
+
+.mylink:hover{
+   color: #484599;
+   font-weight: bold;
+   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+.loglink:hover{
+   color: red;
+   font-weight: bold;
+   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
