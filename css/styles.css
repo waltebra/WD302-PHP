@@ -34,3 +34,12 @@
 .p{
    color: #D3d3d3;
 }
+
+.tag {
+    float: left;
+    width: fit-content;
+}
+
+.tags {
+    overflow: hidden;
+}
