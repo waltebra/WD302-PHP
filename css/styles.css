@@ -12,9 +12,14 @@
     background-color: #25244F;
     color: #FFFFFF;
 }
-
+.post{
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 .post:hover {
     opacity: 90%;
+    margin-top: -0.5em;
+    box-shadow: 0.5em 0.5em 0.2em #213242;
+    cursor: pointer;
 }
 
 .logout:hover{
@@ -22,15 +27,15 @@
 }
 
 .mylink:hover{
-   color: #484599;
+   color: white;
    font-weight: bold;
-   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+   text-decoration: underline 1px;
 }
 
 .loglink:hover{
    color: red;
    font-weight: bold;
-   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+   text-decoration: underline 1px;
 }
 
 .p{
