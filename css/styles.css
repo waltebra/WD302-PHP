@@ -4,12 +4,12 @@
 }
 
 .btn-accent {
-    background-color: #25244F;
+    background-color: #484599;
     color: #FFFFFF;
 }
 
 .btn-accent:hover {
-    background-color: #484599;
+    background-color: #25244F;
     color: #FFFFFF;
 }
 
@@ -26,11 +26,13 @@
    font-weight: bold;
    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
+
 .loglink:hover{
    color: red;
    font-weight: bold;
    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
+
 .p{
    color: #D3d3d3;
 }
@@ -42,4 +44,9 @@
 
 .tags {
     overflow: hidden;
+}
+
+.searchcheck:checked {
+    background-color: #484599;
+    border-color: #484599;
 }

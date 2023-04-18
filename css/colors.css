@@ -9,6 +9,14 @@
  color: #D3d3d3;
 }
 
+.tertiary-dark {
+    color: #A1A1A1;
+}
+
+.black {
+    color: #000000;
+}
+
 .accent-light {
     color: #484599;
 }
