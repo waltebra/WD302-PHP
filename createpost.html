@@ -22,26 +22,31 @@
         <nav class="navbar navbar-expand-lg primary-bg">
             <div class="container-fluid">
               <a class="navbar-brand active secondary mylink" href="posts.html">PHP - People Helping People</a>
+			  <div class="CreateButtonTop">
+				<button type="button" class="btn btn-accent mx-auto" data-bs-toggle="modal" data-bs-target="#create-modal">Create A Post</button>
+			  </div>
               <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                  <a class="nav-link secondary mylink" href="createpost.html">My Posts</a>
+				  <button type="button" class="btn btn-accent d-block d-sm-none d-xs-none" data-bs-toggle="modal" data-bs-target="#create-modal">Create A Post</button>
                   <a class="nav-link secondary mylink" href="posts.html">View Posts</a>
                   <a class="nav-link secondary mylink" href="#">Chat</a>
                   <a class="nav-link secondary mylink" href="#">Profile</a>
-                  <a class="nav-link secondary mylink" href="login.html">Log Out</a>
+                  <a class="nav-link link-danger loglink" href="login.html">Log Out</a>
                 </div>
               </div>
             </div>
           </nav>
           
-         <div class="row row-cols-3 gx-0 mt-2 mb-3">
-            <div class="col-lg-2 col-md-1 col-sm-1">
+         <div class="row row-cols-3 gx-0 mt-2 mb-2">
+            <div class="col-lg-2 col-md-2 col-sm-3">
             </div>
-          <div class="col-lg-2 col-md-2 col-sm-2">
-            <h5 class="primary">Your Posts: <button type="button" class="btn btn-accent mx-auto float-left" data-bs-toggle="modal" data-bs-target="#create-modal">Create A Post</button></h5>
+          <div class="col-lg-3 col-md-3 col-sm-3">
+            <h5 class="primary">Your Posts:</h5>
+          </div>
+          <div class="col-lg-4 col-md-2 col-sm-3">
           </div>
          </div>
 
@@ -51,12 +56,11 @@
                   <div class="col-xxl-3 col-lg-4 col-md-6 col-sm-6">
                     <div class="card secondary-bg primary-border post" data-bs-toggle="modal" data-bs-target="#card-big">
                       <div class="card-body">
-                        <img class="card-img-top" src="Images/LawnMowing.jpg" alt="Project Image">
-                        <h3 class="card-title black mb-2 pt-1">Lawn Mowing</h3>
+                        <h3 class="card-title black mb-2">Volunteer Work</h3>
 
                         <div class="row mb-2 gx-0">
-                          <h3 class="tag me-2"><span class="badge accent-dark-bg">OutDoor</span></h3>
-                          <h3 class="tag"><span class="badge accent-dark-bg">UnSkilled</span></h3>
+                          <h3 class="tag me-2"><span class="badge accent-dark-bg">Indoor</span></h3>
+                          <h3 class="tag"><span class="badge accent-dark-bg">Skilled</span></h3>
                         </div>
 
                         <h5 class="card-title black mb-2">By Friday, 5/12/23</h5>
@@ -69,11 +73,10 @@
                   <div class="col-xxl-3 col-lg-4 col-md-6 col-sm-6">
                     <div class="card secondary-bg primary-border post" data-bs-toggle="modal" data-bs-target="#card-big">
                       <div class="card-body">
-                        <img class="card-img-top" src="Images/BackYardHelp.jpg" alt="Project Image">
-                        <h3 class="card-title black mb-2 pt-1">Patio Help</h3>
+                        <h3 class="card-title black mb-2">Volunteer Work</h3>
 
                         <div class="row mb-2 gx-0">
-                          <h3 class="tag me-2"><span class="badge accent-dark-bg">OutDoor</span></h3>
+                          <h3 class="tag me-2"><span class="badge accent-dark-bg">Indoor</span></h3>
                           <h3 class="tag"><span class="badge accent-dark-bg">Skilled</span></h3>
                         </div>
 
@@ -87,12 +90,11 @@
                   <div class="col-xxl-3 col-lg-4 col-md-6 col-sm-6">
                     <div class="card secondary-bg primary-border post" data-bs-toggle="modal" data-bs-target="#card-big">
                       <div class="card-body">
-                        <img class="card-img-top" src="Images/Grocery.jpg" alt="Project Image">
-                        <h3 class="card-title black mb-2 pt-1">Grocery Shopping</h3>
+                        <h3 class="card-title black mb-2">Volunteer Work</h3>
 
                         <div class="row mb-2 gx-0">
                           <h3 class="tag me-2"><span class="badge accent-dark-bg">Indoor</span></h3>
-                          <h3 class="tag"><span class="badge accent-dark-bg">Errands</span></h3>
+                          <h3 class="tag"><span class="badge accent-dark-bg">Skilled</span></h3>
                         </div>
 
                         <h5 class="card-title black mb-2">By Friday, 5/12/23</h5>
@@ -105,12 +107,11 @@
                   <div class="col-xxl-3 col-lg-4 col-md-6 col-sm-6">
                     <div class="card secondary-bg primary-border post" data-bs-toggle="modal" data-bs-target="#card-big">
                       <div class="card-body">
-                        <img class="card-img-top" src="Images/Chicken.jpg" alt="Project Image">
-                        <h3 class="card-title black mb-2 pt-1">Pet Sitting</h3>
+                        <h3 class="card-title black mb-2">Volunteer Work</h3>
 
                         <div class="row mb-2 gx-0">
                           <h3 class="tag me-2"><span class="badge accent-dark-bg">Indoor</span></h3>
-                          <h3 class="tag"><span class="badge accent-dark-bg">Reoccurring</span></h3>
+                          <h3 class="tag"><span class="badge accent-dark-bg">Skilled</span></h3>
                         </div>
 
                         <h5 class="card-title black mb-2">By Friday, 5/12/23</h5>
@@ -260,8 +261,7 @@
                     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                       <div class="modal-content primary-border">
                         <div class="modal-body">
-                          <img class="card-img-top" src="Images/LawnMowing.jpg" alt="Project Image">
-                          <h3 class="card-title primary mb-3 pt-2">Volunteer Work</h3>
+                          <h3 class="card-title primary mb-3">Volunteer Work</h3>
 
                           <div class="row mb-2 gx-0">
                             <h3 class="tag me-2"><span class="badge accent-dark-bg">Indoor</span></h3>
@@ -297,19 +297,19 @@
                               <label for="inputTitle" class="form-label secondary">Tags</label>
                               <div class="col-mb-12">
                                  <div class="form-check form-check-inline">
-                                   <input class="form-check-input searchcheck" type="checkbox" id="inlineCheckbox1" value="option1">
+                                   <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
                                    <label class="form-check-label secondary" for="inlineCheckbox1">Skilled</label>
                                  </div>
                                  <div class="form-check form-check-inline">
-                                   <input class="form-check-input searchcheck" type="checkbox" id="inlineCheckbox2" value="option2">
+                                   <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
                                    <label class="form-check-label secondary" for="inlineCheckbox2">Unskilled</label>
                                  </div>
                                  <div class="form-check form-check-inline">
-                                   <input class="form-check-input searchcheck" type="checkbox" id="inlineCheckbox3" value="option3">
+                                   <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
                                    <label class="form-check-label secondary" for="inlineCheckbox3">Outdoor</label>
                                  </div>
                                  <div class="form-check form-check-inline">
-                                   <input class="form-check-input searchcheck" type="checkbox" id="inlineCheckbox4" value="option4">
+                                   <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
                                    <label class="form-check-label secondary" for="inlineCheckbox4">Indoor</label>
                                  </div>
                               </div>   
@@ -327,7 +327,7 @@
                               </div>
                               <div class="col-mb-12">
                                  <div class="form-check">
-                                 <input class="form-check-input searchcheck" type="checkbox" id="gridCheck">
+                                 <input class="form-check-input" type="checkbox" id="gridCheck">
                                  <label class="form-check-label secondary" for="gridCheck">
                                     Reoccurring Task
                                  </label>   
