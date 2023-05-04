@@ -293,57 +293,62 @@
                   <!--start Create Post Modal -->
                 <div class="modal fade" tabindex="-1" id="create-modal">
                     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-                      <div class="modal-content primary-bg">
+                      <div class="modal-content">
                         <div class="modal-body">
-                          <h3 class="card-title secondary mb-3">Create A Request For Help</h3>
+                          <h3 class="card-title mb-3">Create A Request For Help</h3>
 
                           <form class="row g-3">
                               <div class="col-mb-12">
-                                 <label for="inputTitle" class="form-label secondary">Title</label>
+                                 <label for="inputTitle" class="form-label h6">Title</label>
                                  <input type="text" class="form-control" id="inputTitle">
                               </div>
-                              <label for="inputTitle" class="form-label secondary">Tags</label>
+                              <label for="inputTitle" class="form-label h6">Post Photo</label>
+                              <div>
+                                 <button type="button" class="btn btn-accent mx-auto" id="CreateButton" data-bs-dismiss="modal">Upload Photo</button>
+                              </div>
+                              <label for="inputTitle" class="form-label h6">Tags</label>
                               <div class="col-mb-12">
                                  <div class="form-check form-check-inline">
                                    <input class="form-check-input searchcheck" type="checkbox" id="inlineCheckbox1" value="option1">
-                                   <label class="form-check-label secondary" for="inlineCheckbox1">Skilled</label>
+                                   <label class="form-check-label" for="inlineCheckbox1">Skilled</label>
                                  </div>
                                  <div class="form-check form-check-inline">
                                    <input class="form-check-input searchcheck" type="checkbox" id="inlineCheckbox2" value="option2">
-                                   <label class="form-check-label secondary" for="inlineCheckbox2">Unskilled</label>
+                                   <label class="form-check-label" for="inlineCheckbox2">Unskilled</label>
                                  </div>
                                  <div class="form-check form-check-inline">
                                    <input class="form-check-input searchcheck" type="checkbox" id="inlineCheckbox3" value="option3">
-                                   <label class="form-check-label secondary" for="inlineCheckbox3">Outdoor</label>
+                                   <label class="form-check-label" for="inlineCheckbox3">Outdoor</label>
                                  </div>
                                  <div class="form-check form-check-inline">
                                    <input class="form-check-input searchcheck" type="checkbox" id="inlineCheckbox4" value="option4">
-                                   <label class="form-check-label secondary" for="inlineCheckbox4">Indoor</label>
+                                   <label class="form-check-label" for="inlineCheckbox4">Indoor</label>
                                  </div>
                               </div>   
                               <div class="col-mb-12">
-                                 <label for="inputDeadline" class="form-deadline secondary">Deadline</label>
+                                 <label for="inputDeadline" class="form-deadline h6">Deadline</label>
                                  <input type="date" class="form-control" id="inputDeadline">
                               </div>
                               <div class="col-mb-12">
-                                 <label for="inputLocation" class="form-Location secondary">Location</label>
+                                 <label for="inputLocation" class="form-Location h6">Location</label>
                                  <input type="text" class="form-control" id="inputLocation">
                               </div>
                               <div class="col-mb-12">
-                                 <label for="inputDescription" class="form-Description secondary">Description</label>
+                                 <label for="inputDescription" class="form-Description h6">Description</label>
                                  <textarea class="form-control" id="inputDescription" rows="3"></textarea>
                               </div>
+                              <label for="inputTitle" class="form-label h6">Post Type</label>
                               <div class="col-mb-12">
                                  <div class="form-check">
-                                 <input class="form-check-input searchcheck" type="checkbox" id="gridCheck">
-                                 <label class="form-check-label secondary" for="gridCheck">
-                                    Reoccurring Task
-                                 </label>   
+                                    <input class="form-check-input searchcheck" type="checkbox" id="gridCheck">
+                                    <label class="form-check-label " for="gridCheck">
+                                       Reoccurring Task
+                                    </label>   
                                  </div>
                               </div>
                            </form>
-                           <div class="mx-auto text-center">
-                              <button type="button" class="btn btn-accent mx-auto" id="CreateButton" data-bs-dismiss="modal">Create</button>
+                           <div class="text-center">
+                              <button type="button" class="btn btn-accent mx-auto" id="CreateButton" data-bs-dismiss="modal">Create Post</button>
                            </div>   
                         </div>
                       </div>
