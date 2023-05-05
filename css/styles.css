@@ -55,3 +55,8 @@
     background-color: #484599;
     border-color: #484599;
 }
+
+.loginBackground {
+	background-repeat: no-repeat; 
+	background-size: cover;
+}

@@ -10,7 +10,7 @@
         <link href="css\colors.css" rel="stylesheet">
     </head>
 
-    <body>
+    <body class="loginBackground" style="background-image: url(Images/Volunteers.jpg);">
 	  <section class="vh-100 gradient-custom">
 		<div class="primary">
 		<div class="container py-5 h-100">
@@ -18,23 +18,27 @@
 		<div class="col-12 col-md-8 col-lg-6 col-xl-5\">
 		<div class="text-white" style="border-radius: 1rem; background-color:#213242;">
 		<div class="card-body p-5 text-left"> <!--change left to center to center space all text-->
-		<div class="mb-md-5 mt-md-4 pb-5">
+		<div class="mb-md-1 mt-md-1 pb-1">
         <h1>PHP - People Helping People</h1>
         <form action="landing.html" method="GET">
             <h2>Login</h2>
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Email address</label>
                 <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
-                <div id="emailHelp" class="form-text secondary">The Email Address you used to create your account.</div>
+                <div id="emailHelp" class="form-text tertiary-dark">The Email Address you used to create your account.</div>
               </div>
               <div class="mb-3">
                 <label for="password" class="form-label">Password</label>
                 <input type="password" class="form-control" id="password" aria-describedby="passwordHelp" required>
-                <div id="passwordHelp" class="form-text secondary">Your password.</div>
+                <div id="passwordHelp" class="form-text tertiary-dark">Your password.</div>
               </div>
 			  <div>
 				<div class="text-center">
                  <button type="button" class="btn btn-accent mx-auto" onclick="document.location='posts.html'">Login</button>
+			  </div>
+			  <div class="text-center">
+			    <br>
+			    <a class="secondary" href="registration.html">Don't have an account? Register here.</a>
 			  </div>
         </form>
 

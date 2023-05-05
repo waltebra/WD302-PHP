@@ -10,35 +10,38 @@
         <link href="css\colors.css" rel="stylesheet">
     </head>
 
-    <body>
-		<section class="vh-100 gradient-custom">
+    <body class="loginBackground" style="background-image: url(Images/Volunteers.jpg);">
+	   	<section class="vh-100 gradient-custom">
 		<div class="primary">
 		<div class="container py-5 h-100">
 		<div class="row d-flex justify-content-center align-items-center h-100">
 		<div class="col-12 col-md-8 col-lg-6 col-xl-5\">
-		<div class="text-white" style="border-radius: 1rem; background-color:#213242;">
+		<div class="text-white" style="border-radius: 1rem; background-color:#213242;"> <!--To flip color palette change background-color to #FFFFFF and text-white to primary-->
 		<div class="card-body p-5 text-left"> <!--change left to center to center space all text-->
-		<div class="mb-md-5 mt-md-4 pb-5">
+		<div class="mb-md-1 mt-md-1 pb-1">
     <h1>PHP - People Helping People</h1>
     <form action="landing.html" method="GET">
         <h2>Register an account:</h2>
         <div class="mb-3">
-            <label for="firstname" class="form-label">First Name</label>
-            <input type="text" class="form-control" id="firstname" aria-describedby="firstNameHelp" required>
-          </div>
-          <div class="mb-3">
-            <label for="lastname" class="form-label">Last Name</label>
-            <input type="text" class="form-control" id="lastname" aria-describedby="lastNameHelp" required>
-          </div>
-        <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Email address</label>
+		  <div class="container text-left">
+		    <div class="row align-items-start">
+		      <div class="col">
+                <label for="firstname" class="form-label">First Name</label>
+                <input type="text" class="form-control" id="firstname" aria-describedby="firstNameHelp" required>
+              </div>
+		  	  <div class="col">
+                <label for="lastname" class="form-label">Last Name</label>
+                <input type="text" class="form-control" id="lastname" aria-describedby="lastNameHelp" required>
+		      </div>
+        <div class="mb-3 mt-3">
+			<label for="exampleInputEmail1" class="form-label">Email address</label>
             <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
-            <div id="emailHelp" class="form-text secondary">We'll never share your email with anyone else.</div>
+            <div id="emailHelp" class="form-text tertiary-dark">We'll never share your email with anyone else.</div>
           </div>
           <div class="mb-3">
             <label for="password" class="form-label">Password</label>
             <input type="password" class="form-control" id="password" aria-describedby="passwordHelp" required>
-            <div id="passwordHelp" class="form-text secondary">Password must be more than 8 characters.</div>
+            <div id="passwordHelp" class="form-text tertiary-dark">Password must be more than 8 characters.</div>
           </div>
           <div class="mb-3">
             <label for="dateofbirth" class="form-label">Date Of Birth</label>
@@ -47,12 +50,14 @@
           <div class="mb-3">
             <label for="phone" class="form-label">Phone Number - Optional</label>
             <input type="tel" class="form-control" id="phone" aria-describedby="phoneHelp">
-            <div id="phoneHelp" class="form-text secondary">XXX-XXX-XXXX</div>
+            <div id="phoneHelp" class="form-text tertiary-dark">XXX-XXX-XXXX</div>
           </div>
-		  <div>
-		    <div class="text-center">
+		  <div class="text-center">
             <button type="button" class="btn btn-accent mx-auto" onclick="document.location='posts.html'">Register</button>
 		  </div>
+		  <div class="text-center">
+		    <br>
+		    <a class="secondary" href="login.html">Already have an account? Login here.</a>
 		  </div>
     </form>
 	</div>
@@ -61,7 +66,10 @@
 	</div>
 	</div>
 	</div>
-	</div> <!--Closing all the bootstrap divs-->
+	</div>
+	</div>
+	</div>
+	</div><!--Closing all the bootstrap divs-->
 
         <!--PLACE SCRIPTS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
