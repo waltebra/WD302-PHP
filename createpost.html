@@ -295,7 +295,7 @@
                     <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
                       <div class="modal-content">
                         <div class="modal-body">
-                          <h3 class="card-title mb-3">Create A Request For Help</h3>
+                          <h3 class="card-title mb-4 text-center">Create A Request For Help</h3>
 
                           <form class="row g-3">
                               <div class="col-mb-12">
@@ -337,17 +337,22 @@
                                  <label for="inputDescription" class="form-Description h6">Description</label>
                                  <textarea class="form-control" id="inputDescription" rows="3"></textarea>
                               </div>
+                           
                               <label for="inputTitle" class="form-label h6">Post Type</label>
                               <div class="col-mb-12">
-                                 <div class="form-check">
-                                    <input class="form-check-input searchcheck" type="checkbox" id="gridCheck">
-                                    <label class="form-check-label " for="gridCheck">
+                                 <div class="form-check form-check-inline">
+                                    <input class="form-check-input searchcheck" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                    <label class="form-check-label " for="inlineRadio1">
                                        Reoccurring Task
                                     </label>   
                                  </div>
+                                 <div class="form-check form-check-inline">
+                                    <input class="form-check-input searchcheck" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" checked>
+                                    <label class="form-check-label" for="inlineRadio2">One Time Task</label>   
+                                 </div>
                               </div>
                            </form>
-                           <div class="text-center">
+                           <div class="text-center" style="margin-top: 1.5em;">
                               <button type="button" class="btn btn-accent mx-auto" id="CreateButton" data-bs-dismiss="modal">Create Post</button>
                            </div>   
                         </div>
